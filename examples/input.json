@@ -1,0 +1,19 @@
+{
+  "max_hops": 3,
+  "quotes": [
+    {
+      "id": "ab",
+      "from": "a",
+      "to": "b",
+      "rate": 2,
+      "fee": 0
+    },
+    {
+      "id": "ba",
+      "from": "b",
+      "to": "a",
+      "rate": "0.6",
+      "fee": 0
+    }
+  ]
+}

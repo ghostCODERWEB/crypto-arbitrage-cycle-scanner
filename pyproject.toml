@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-arbitrage-cycle-scanner"
+version = "0.1.0"
+description = "Enumerate short currency cycles and calculate fee-adjusted theoretical returns with canonical deduplication."
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+crypto-arbitrage-cycle-scanner = "cryptolab:main"
+
+[tool.setuptools.packages.find]
+include = ["cryptolab*"]
+
+[tool.setuptools.package-data]
+cryptolab = ["web/*"]

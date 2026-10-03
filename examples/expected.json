@@ -1,0 +1,14 @@
+{
+  "cycles": [
+    {
+      "edges": [
+        "ab",
+        "ba"
+      ],
+      "multiplier": "1.2",
+      "profit_ratio": "0.2",
+      "profitable": true
+    }
+  ],
+  "profitable_count": 1
+}
